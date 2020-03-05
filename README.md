@@ -2,6 +2,7 @@
 Calculate the distance between two points in Miles, Kilometers, Yards, Meters and Feets
 
 Example
+```
 //includee the class
 require_once('DistanceCalculator.Class.php');
 
@@ -27,3 +28,4 @@ $distance = $dc->getDistance();
 
 //show the calculated distance
 echo $distance;
+```
